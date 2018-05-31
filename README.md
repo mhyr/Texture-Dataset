@@ -1,20 +1,20 @@
 # Texture-Dataset
-This dataset is a collection of different textures which can be used as a (train/test) set for Texture Defect Detection algorithems.
+This dataset is a collection of different textures which can be used as a (train/test) set for Texture Defect Detection algorithms.
 
-During the following three months, I am going to gradually add new textures in separate folders, where each includes 150 samples of defected texture, 1000 samples of clean texture. Each folder also includes masked copy of defected samples and a "csv" file consisting lables of -what I call bounding ellipses- of defected areas.
+During the following three months, I am going to gradually add new textures in separate folders, where each includes 150 samples of defected texture, 1000 samples of clean texture. Each folder also includes masked images of defected samples and a "CSV" file consisting labels of -what I call bounding ellipses around- defected areas.
 
 **Camera**
 I'm simply using my cell phones primary camera which is a Samsung Galaxy S4 I9500 model. The basic specification of the camera is: 13 MP (f/2.2, 31mm, 1/3", 1.14µm), autofocus.
-The first problem with this cheap and convinient camera is its output, which is of a lossy format with no access to the RAW image data. In addition, low shutter speed and lack of marco lense does not result in the best quality photos.
-The lower quality of the photos however, can be beneficial in the sense that whatever algorithem that is trained with these photos, would be potentially more robust.
+The first problem with this cheap and convenient camera is its output, which is of a lossy format with no access to the RAW image data. In addition, low shutter speed and lack of macro lens do not result in the best quality photos.
+The lower quality of the photos, however, can be beneficial in the sense that whatever algorithm that is trained with these photos, would be potentially more robust.
 
-The preparation steps after taking the photos are as folows:
+The preparation steps after taking the photos are as follows:
 
 **Photoshop**
 
 	1-1- open image
 
-	1-2- F4 to slice horizental phtos/ F6 to slice vertical photos
+	1-2- F4 to slice horizontal photos/ F6 to slice vertical photos
 
 	1-3- ctrl+"." to crop more
 
@@ -22,7 +22,7 @@ The preparation steps after taking the photos are as folows:
 
 	1-5- F7 select previous document
   
-**Imagej**
+**ImageJ**
 
 	2-a- Ellips
 
@@ -30,7 +30,7 @@ The preparation steps after taking the photos are as folows:
 
 		2-a-2 select
 
-		2-a-3 press "6" to make labels and save in a "csv" file
+		2-a-3 press "6" to make labels and save in a "CSV" file
 
 		2-a-4 repeat 2-a-2, 2-a-3 (if needed)
 
